@@ -12,16 +12,16 @@ namespace GameOffsets
         [FieldOffset(0x3E0)] public readonly long HiddenSkillBar;
         [FieldOffset(0x478)] public readonly long ChatBoxRoot;
         [FieldOffset(0x4A8)] public readonly long QuestTracker;
-        [FieldOffset(0x530)] public readonly long OpenLeftPanel;
-        [FieldOffset(0x538)] public readonly long OpenRightPanel;
-        [FieldOffset(0x560)] public readonly long InventoryPanel;
-        [FieldOffset(0x568)] public readonly long StashElement;
+        [FieldOffset(0x548)] public readonly long OpenLeftPanel;
+        [FieldOffset(0x550)] public readonly long OpenRightPanel;
+        [FieldOffset(0x568)] public readonly long InventoryPanel;
+        [FieldOffset(0x570)] public readonly long StashElement;
         [FieldOffset(0x570)] public readonly long GuildStashElement;
         [FieldOffset(0x610)] public readonly long AtlasPanel;
         [FieldOffset(0x618)] public readonly long AtlasSkillPanel;
         [FieldOffset(0x648)] public readonly long WorldMap;
         [FieldOffset(0x670)] public readonly long Map;
-        [FieldOffset(0x678)] public readonly long ItemsOnGroundLabelElement;
+        [FieldOffset(0x680)] public readonly long ItemsOnGroundLabelElement;
         [FieldOffset(0x680)] public readonly long BanditDialog;
         [FieldOffset(0x700)] public readonly long RootBuffPanel;
         [FieldOffset(0x708)] public readonly long NpcDialog;
@@ -65,7 +65,7 @@ namespace GameOffsets
         [FieldOffset(0x8C0)] public readonly long KalandraReflectionPanel;
         [FieldOffset(0x8E0)] public readonly long BuffsPanel;
         [FieldOffset(0x8E8)] public readonly long DelveDarkness; // Debuffs Panel
-        [FieldOffset(0x928)] public readonly long AreaInstanceUi;
+        [FieldOffset(0x930)] public readonly long AreaInstanceUi;
         [FieldOffset(0x988)] public readonly long InteractButtonWrapper;
         [FieldOffset(0x990)] public readonly long SkipAheadButton;
         [FieldOffset(0x998)] public readonly long SyndicateHelpButton;
