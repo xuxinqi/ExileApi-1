@@ -20,7 +20,7 @@ namespace GameOffsets
         [FieldOffset(0x610)] public readonly long AtlasPanel;
         [FieldOffset(0x618)] public readonly long AtlasSkillPanel;
         [FieldOffset(0x648)] public readonly long WorldMap;
-        [FieldOffset(0x670)] public readonly long Map;
+        [FieldOffset(0x678)] public readonly long Map;
         [FieldOffset(0x680)] public readonly long ItemsOnGroundLabelElement;
         [FieldOffset(0x680)] public readonly long BanditDialog;
         [FieldOffset(0x700)] public readonly long RootBuffPanel;
