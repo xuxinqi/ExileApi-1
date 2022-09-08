@@ -7,7 +7,7 @@ namespace GameOffsets
     {
         [FieldOffset(0x250)] public readonly long GetQuests;
         [FieldOffset(0x288)] public readonly long GameUI;
-        [FieldOffset(0x3D0)] public readonly long Mouse;
+        [FieldOffset(0x3F0)] public readonly long Mouse;
         [FieldOffset(0x3D8)] public readonly long SkillBar;
         [FieldOffset(0x3E0)] public readonly long HiddenSkillBar;
         [FieldOffset(0x478)] public readonly long ChatBoxRoot;
